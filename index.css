@@ -1,0 +1,409 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f7f9fc;
+}
+
+.divbody {
+  display: flex;
+  height: 100vh;
+}
+
+.divcolumna {
+  width: 240px;
+  height: 1300px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.divcolumna .logo {
+  width: 100%;
+  margin-bottom: 40px;
+
+}
+
+.divcolumna .logo span {
+  color: #4f46e5;
+}
+
+.apartados a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #374151;
+  text-decoration: none;
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+.apartados2 {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #9ca3af;
+ 
+}
+
+.barraarriba {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.buscador input {
+  border: none;
+  background: #f3f4f6;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-left: 10px;
+}
+
+.divusuario img {
+  height: 24px;
+  margin-left: 20px;
+}
+
+.divmenu {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjetas {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.tarjeta {
+  flex: 1;
+  min-width: 220px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.iconotarjeta {
+  width: 40px;
+  height: 40px;
+  display: flex; 
+  margin-bottom: 10px;
+  margin-left: 300px;
+}
+
+.numerotarjeta {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.trend {
+  font-size: 14px;
+}
+
+.verde {
+  color: #10b981;
+}
+
+.rojo {
+  color: #ef4444;
+}
+
+.imagengrafico1{
+  width: 100%;
+}
+
+.divtabla {
+  background-color: white;
+  border-radius: 14px;
+  margin: 20px 30px 40px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.encabezadotabla {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla thead {
+  background-color: #f9fafb;
+}
+
+.tabla th, .tabla td {
+  padding: 15px;
+  text-align: left;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.tabla td img {
+  height: 32px;
+  margin-right: 8px;
+  
+}
+
+.delivered {
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+  background-color: #10b981;
+}
+
+.titulo{
+  margin-left: 30px;
+}
+
+.tarjetasdashboard {
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+.tarjetadashboard {
+  flex: 1;
+  width: 520px;
+  height: 400px;
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.graficoscostumers {
+  width: 200px;
+  margin: 10px 0;
+}
+
+.infotarjetadashboard p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.tarjetadashboard2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tarjetadashboard2 button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.infotarjetadashboard2 {
+  text-align: center;
+  padding-top: 250px;
+}
+
+.preciodashboard {
+  color: #3b82f6;
+  font-weight: bold;
+}
+.graficosales{
+  width: 520px;
+  margin-top: -53px;
+
+}
+
+
+.bannerproducts {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background: #3b82f6;
+  color: white;
+  border-radius: 16px;
+  padding: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left:50px;
+  margin-right: 80px;
+  position: relative;
+}
+
+.contenidobanner {
+  max-width: 600px;
+  justify-content: left;
+}
+
+.contenidobanner{
+  font-size: 14px;
+
+}
+
+.contenidobanner h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.botonbannerproducts {
+  background: #f97316;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 170px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.tarjetaproducts{
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  width: 340px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  position: relative;
+  text-align: left;
+}
+
+.tarjetaproducts img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.precioproducts {
+  color: #3384cf;
+  font-weight: bold;
+}
+
+.botonproducts {
+  background: #e5e7eb;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.divcolumnainbox {
+  width: 240px;
+  height: 700px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+
+.divcolumnainbox button{
+  background-color: rgb(23, 131, 255);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.apartadosinbox a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #374151;
+  text-decoration: none;
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+.contenidoinbox {
+  display: flex;
+  
+}
+
+.tablaemail{
+  background-color: white;
+  border-radius: 14px;
+  margin: 20px 30px 40px;
+  padding: 20px;
+}
+
+.buscador2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.buscador2 input {
+  border: none;
+  background: #f3f4f6;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-left: 10px;
+  
+}
+
+.opcionesinbox{
+  padding-left: 800px;
+  
+}
+
+.opcionesinbox img{
+  padding-left: 20px;
+  
+}
+
+.divemail{
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  border-bottom: #d1d1d1 1px solid;
+
+  
+}
+
+.divemail p{
+  padding-left: 7%;
+}
+
+.estrella{
+  padding-left: 7%;
+}
+
+.tipoemail{
+  padding-left: 7%;
+}
+
+.seleccionado {
+  background: #ccddfd;
+  border-radius: 12px;
+}
+
+
