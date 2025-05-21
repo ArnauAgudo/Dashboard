@@ -298,6 +298,11 @@ body {
   margin-bottom: 15px;
 }
 
+.estrellapuntuacio{
+  width: 20px;
+  height: 20px;
+}
+
 .precioproducts {
   color: #3384cf;
   font-weight: bold;
@@ -405,5 +410,62 @@ body {
   background: #ccddfd;
   border-radius: 12px;
 }
+
+.estrellapuntuacio{
+  width: 20px;
+  height: 20px;
+}
+
+.contenidoorder{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.menufiltros {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.filtro {
+  padding: 10px 16px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #d1d5db;
+  font-weight: 500;
+}
+
+.filtroreset {
+  padding: 10px 16px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #d1d5db;
+  cursor: pointer;
+  font-weight: 500;
+  color: red;
+ 
+}
+
+.tablaorder {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.tablaorder thead {
+  background: #f3f4f6;
+  font-weight: bold;
+}
+
+.tablaorder th, td {
+  text-align: left;
+  padding: 15px 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
 
 

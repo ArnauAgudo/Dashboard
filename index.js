@@ -1,5 +1,4 @@
 
-  
   const divEmails = document.querySelectorAll(".divemail");
 
   for (let i = 0; i < divEmails.length; i++) {
